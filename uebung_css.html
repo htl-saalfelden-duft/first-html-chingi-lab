@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- CSS kann auch in einer eigenen Datei ausgelagert werden -->
+</head>
+
+<body>
+    <!-- Hauptüberschrift der Seite -->
+    <h1>Eigene Webiste von Diddy</h1>
+    <div id="main-bereich">
+        <!-- Bereich mit Infos über dich -->
+        <div id="ueber-mich">
+            <h2>Über mich</h2>
+            <!-- Bild mit alt- und title-Attribut für Barrierefreiheit und Tooltip -->
+            <img src="https://images3.memedroid.com/images/UPLOADED48/689dffd7b6f68.jpeg" alt="Foto von Diddy"
+                title="Diddy" width="200">
+            <p>Hallo! Ich bin Diddy, "Kindergarten Pedogoge" in St.Johann und interessiere mich besonders für
+                Minderjährige und neu Geborene. Ich bin kreativ, hilfsbereit und arbeite gerne intim.</p>
+        </div>
+        <!-- Interessen-Liste -->
+        <div id="interessen">
+            <h2>Interessen</h2>
+            <ul>
+                <li>Mit Kinder spielen</li>
+                <li>Goonen</li>
+                <li>Musik hören</li>
+                <li>Klopausen</li>
+            </ul>
+        </div>
+        <!-- Lieblingswebseite mit Link -->
+        <div id="lieblingsseite">
+            <h2>Meine Lieblingswebseite</h2>
+            <p>
+                Die Webseite, die ich am häufigsten besuche, ist
+                <a href="https://www.reddit.com/">Reddit</a>.
+                Dort finde ich viele hilfreiche Tutorials und Beispiele rund um Kinder.
+            </p>
+        </div>
+    </div>
+    <!-- Bereich für Bild und Text zu CSS -->
+    <div id="bild-und-text">
+        <h2>Bild und Text</h2>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/Official_CSS_Logo.svg/960px-Official_CSS_Logo.svg.png"
+            alt="CSS Logo" title="CSS Logo" width="200">
+        <p>CSS steht für Cascading Style Sheets (kaskadierende Stilvorlagen) und ist eine Stylesheet-Sprache, die das
+            Aussehen und Layout von Webinhalten, typischerweise HTML-Dokumenten, gestaltet. CSS trennt den Inhalt (HTML)
+            von der Darstellung (CSS), sodass man Farben, Schriftarten, Positionen und Responsive Designs für
+            verschiedene Bildschirme festlegen kann. Es ist ein sich entwickelnder Standard, der von vielen Webseiten
+            genutzt wird, um ein einheitliches und ansprechendes Erscheinungsbild zu erzeugen.</p>
+    </div>
+    <!-- Motto-Bereich -->
+    <div id="motto">
+        <!-- Lebensmotto als Überschrift 4, gestylt über CSS -->
+        <h4 class="lebensmotto">Mein Motto:</h4>
+        <h4 class="lebensmotto">"Glaub was du glaubst, nicht was andere denken"</h4>
+    </div>
+    <!-- Footer mit Kontakt und Link -->
+    <footer>
+        <p>
+            <!-- "mailto:" öffnet das Standard-Mailprogramm mit der Adresse -->
+            Kontakt: <a href="mailto:diddy:player@gmail.com">E-Mail</a>
+        <p></p>
+        <!-- Link zur Hauptseite -->
+        <a href="http://127.0.0.1:5500/index.html">Haupt Website</a>
+        </p>
+    </footer>
+    <style>
+        /* Hauptüberschrift stylen */
+        h1 {
+            text-align: center;
+            color: #ac378f;
+            border-style: solid;
+            border-width: medium;
+            padding: 20px;
+        }
+
+        /* Abschnittsüberschriften stylen */
+        #bild-und-text h2,
+        #motto h2,
+        #main-bereich h2 {
+            color: #ac378f;
+            font-family: Arial, Helvetica, sans-serif;
+            text-align: left;
+        }
+
+        /* Lebensmotto individuell stylen */
+        .lebensmotto {
+            font-size: 25px;
+            font-family: 'Segoe Script', cursive, Arial, sans-serif;
+            color: #ac378f;
+        }
+
+        /* Footer stylen:*/
+        footer {
+            text-align: right;
+            background-color: #e0b3ff;
+            padding: 1rem 2rem;
+            font-size: 1rem;
+        }
+    </style>
+</body>
+
+</html>
